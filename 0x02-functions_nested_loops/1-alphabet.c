@@ -7,13 +7,12 @@
  */
 void print_alphabet(void);
 
-
-int main(void)
+int main()
 {
     print_alphabet();
     return (0);
 }
-void print_alphabet(void)
+void print_alphabet()
 {
 printf("abcdefghijklmnopqrstuvwxyz\n");
 }
