@@ -1,5 +1,6 @@
 #include "main.h"
-int main() {
-  printf("putchar\n");
+int main(void) 
+{
+  printf("_putchar\n");
   return 0;
 }
