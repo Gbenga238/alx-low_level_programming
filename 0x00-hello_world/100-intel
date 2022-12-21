@@ -1,10 +1,2 @@
 #!/bin/bash
-
-# Save the C file name in a variable
-CFILE=$1
-
-# Create the output file name by replacing the .c extension with .s
-OUTFILE="${CFILE%.c}.s"
-
-# Compile the C file with the -S flag to generate assembly code
-gcc -S $CFILE -o $OUTFILE
+gcc -S $CFILE -masm=intel
