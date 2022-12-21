@@ -5,18 +5,18 @@
  *                  of string to uppercase.
  * @src: The string to be changed.
  *
- * Return: A pointer to the changed string.
+ * Return: A pointer to the string that is changed.
  */
 char *string_toupper(char *str)
 {
-	int index = 0;
+	int i = 0;
 
-	while (str[index])
+	while (str[i])
 	{
-		if (str[index] >= 'a' && str[index] <= 'z')
-			str[index] -= 32;
+		if (str[i] >= 'a' && str[i] <= 'z')
+			str[i] -= 32;
 
-		index++;
+		i++;
 	}
 
 	return (str);
