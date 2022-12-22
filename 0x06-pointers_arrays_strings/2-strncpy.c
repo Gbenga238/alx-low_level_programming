@@ -24,3 +24,4 @@ char *_strncpy(char *str, char *src, int n)
 
 	return (str);
 }
+

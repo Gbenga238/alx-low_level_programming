@@ -21,3 +21,4 @@ char *_strncat(char *str, char *src, int n)
 
 	return (str);
 }
+

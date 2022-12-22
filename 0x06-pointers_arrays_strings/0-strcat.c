@@ -20,3 +20,4 @@ char *strncat(char @str, const char *src)
 
 	return (str);
 }
+
