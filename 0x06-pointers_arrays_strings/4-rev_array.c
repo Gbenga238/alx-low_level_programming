@@ -5,15 +5,15 @@
  * @a: The array of integers to be reversed.
  * @n: The number of elements in the array.
  */
+
 void reverse_array(int *a, int n)
 {
-	int ss, i;
+	int tmp, index;
 
-	for (i = n - 1; i >= n / 2; i--)
+	for (index = n - 1; index >= n / 2; index--)
 	{
-		ss = a[n - 1 - i];
-		a[n - 1 - i] = a[i];
-		a[i] = ss;
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp;
 	}
 }
-
